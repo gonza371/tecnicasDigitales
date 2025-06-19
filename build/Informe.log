@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  19 JUN 2025 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  19 JUN 2025 00:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,7 +820,7 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (newCommands.tex)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 42.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 43.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\caratula.aux)
@@ -828,39 +828,23 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported  on input line 9.
- (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\configContenido.aux) (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\indice.aux)
-
-LaTeX Warning: Label `fig:falstad' multiply defined.
-
-
-LaTeX Warning: Label `fig:falstad' multiply defined.
-
-
-LaTeX Warning: Label `fig:falstad' multiply defined.
-
-
-LaTeX Warning: Label `fig:falstad_s2' multiply defined.
-
-
-LaTeX Warning: Label `fig:falstad_s2' multiply defined.
-
-)
+ (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\configContenido.aux) (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\indice.aux))
 \openout1 = `Informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count396
@@ -882,7 +866,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 42.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -918,8 +902,8 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen380
@@ -927,11 +911,9 @@ Package caption Info: changepage package is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `default' on line 42.
+Package chemgreek Info: Activating mapping `default' on line 43.
 
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 42.
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \openout2 = `caratula.aux'.
 
@@ -1074,17 +1056,17 @@ Package pdftex.def Info: imagenes/2.1_W.png  used on input line 192.
 <imagenes/2.1_X.png, id=31, 677.53125pt x 401.0985pt>
 File: imagenes/2.1_X.png Graphic file (type png)
 <use imagenes/2.1_X.png>
-Package pdftex.def Info: imagenes/2.1_X.png  used on input line 200.
+Package pdftex.def Info: imagenes/2.1_X.png  used on input line 199.
 (pdftex.def)             Requested size: 199.16928pt x 117.90685pt.
 <imagenes/2.1_Y.png, id=32, 637.1805pt x 325.215pt>
 File: imagenes/2.1_Y.png Graphic file (type png)
 <use imagenes/2.1_Y.png>
-Package pdftex.def Info: imagenes/2.1_Y.png  used on input line 208.
+Package pdftex.def Info: imagenes/2.1_Y.png  used on input line 206.
 (pdftex.def)             Requested size: 199.16928pt x 101.65424pt.
 <imagenes/2.1_Z.png, id=33, 467.94826pt x 258.9675pt>
 File: imagenes/2.1_Z.png Graphic file (type png)
 <use imagenes/2.1_Z.png>
-Package pdftex.def Info: imagenes/2.1_Z.png  used on input line 216.
+Package pdftex.def Info: imagenes/2.1_Z.png  used on input line 213.
 (pdftex.def)             Requested size: 199.16928pt x 110.22371pt.
 
 
@@ -1092,53 +1074,53 @@ Package pdftex.def Info: imagenes/2.1_Z.png  used on input line 216.
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 308.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 304.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [2 <./imagenes/2.1_W.png> <./imagenes/2.1_X.png> <./imagenes/2.1_Y.png> <./imagenes/2.1_Z.png>]
 
 <imagenes/2.2_S0.png, id=42, 667.293pt x 401.70074pt>
 File: imagenes/2.2_S0.png Graphic file (type png)
 <use imagenes/2.2_S0.png>
-Package pdftex.def Info: imagenes/2.2_S0.png  used on input line 426.
+Package pdftex.def Info: imagenes/2.2_S0.png  used on input line 422.
 (pdftex.def)             Requested size: 199.16928pt x 119.8982pt.
 <imagenes/2.2_S1.png, id=43, 642.60075pt x 398.08725pt>
 File: imagenes/2.2_S1.png Graphic file (type png)
 <use imagenes/2.2_S1.png>
-Package pdftex.def Info: imagenes/2.2_S1.png  used on input line 435.
+Package pdftex.def Info: imagenes/2.2_S1.png  used on input line 430.
 (pdftex.def)             Requested size: 199.16928pt x 123.38147pt.
 <imagenes/2.2_S2.png, id=44, 686.565pt x 412.54124pt>
 File: imagenes/2.2_S2.png Graphic file (type png)
 <use imagenes/2.2_S2.png>
-Package pdftex.def Info: imagenes/2.2_S2.png  used on input line 444.
+Package pdftex.def Info: imagenes/2.2_S2.png  used on input line 438.
 (pdftex.def)             Requested size: 199.16928pt x 119.67166pt.
 
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 458.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 451.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [3 <./imagenes/2.2_S0.png> <./imagenes/2.2_S1.png> <./imagenes/2.2_S2.png>]
 <imagenes/Circuito1.jpg, id=52, 473.51906pt x 943.27406pt>
 File: imagenes/Circuito1.jpg Graphic file (type jpg)
 <use imagenes/Circuito1.jpg>
-Package pdftex.def Info: imagenes/Circuito1.jpg  used on input line 466.
+Package pdftex.def Info: imagenes/Circuito1.jpg  used on input line 459.
 (pdftex.def)             Requested size: 179.25244pt x 357.08052pt.
 
 
 <imagenes/Circuito2.jpg, id=53, 902.37125pt x 1604.99625pt>
 File: imagenes/Circuito2.jpg Graphic file (type jpg)
 <use imagenes/Circuito2.jpg>
-Package pdftex.def Info: imagenes/Circuito2.jpg  used on input line 482.
+Package pdftex.def Info: imagenes/Circuito2.jpg  used on input line 475.
 (pdftex.def)             Requested size: 199.16928pt x 354.25131pt.
 )
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 50.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 51.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
 [4 <./imagenes/Circuito1.jpg> <./imagenes/Circuito2.jpg>] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20250619002430 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20250619002722 485F51DA614295E99B9A62A4CA5961CE)...disabled (restricted).
 
 (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\Informe.aux (c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\caratula.aux)
 LaTeX Info: Redefining \. on input line 9.
@@ -1148,19 +1130,15 @@ LaTeX Info: Redefining \% on input line 9.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 55796 strings out of 469922
- 1515728 string characters out of 5469149
+ 55794 strings out of 469922
+ 1515699 string characters out of 5469149
  2410535 words of memory out of 5000000
- 81932 multiletter control sequences out of 15000+600000
+ 81930 multiletter control sequences out of 15000+600000
  648606 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,26n,93p,759b,879s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,26n,93p,784b,879s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\build\Informe.pdf (8 pages, 1799780 bytes).
 PDF statistics:
