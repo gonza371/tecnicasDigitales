@@ -72,35 +72,35 @@ A & B & C & D & W & X & Y & Z \\
     \cellcolor{green!30}1 \\
 11 & 
     % 1100: grupo 1 (amarillo)
-    \cellcolor{yellow!30}x & 
+    \cellcolor{red!30}x & 
     % 1101: grupo 1 (amarillo) y grupo 2 (cyan)
     \tikz{
-        \fill[yellow!30] (0,0) rectangle (0.5,0.5);
+        \fill[red!30] (0,0) rectangle (0.5,0.5);
         \fill[cyan!30] (0.25,0) rectangle (0.5,0.5);
         \node at (0.25,0.25) {x};
     } & 
     % 1111: grupo 1 (amarillo), grupo 2 (cyan), grupo 3 (verde)
     \tikz{
-        \fill[yellow!30] (0,0) rectangle (0.5,0.5);
+        \fill[red!30] (0,0) rectangle (0.5,0.5);
         \fill[cyan!30] (0.15,0) rectangle (0.35,0.5);
         \fill[green!30] (0.25,0) rectangle (0.5,0.5);
         \node at (0.25,0.25) {x};
     } & 
     % 1110: grupo 1 (amarillo), grupo 3 (verde)
     \tikz{
-        \fill[yellow!30] (0,0) rectangle (0.5,0.5);
+        \fill[red!30] (0,0) rectangle (0.5,0.5);
         \fill[green!30] (0.25,0) rectangle (0.5,0.5);
         \node at (0.25,0.25) {x};
     } \\
 10 & 
     % 1000: grupo 1 (amarillo)
-    \cellcolor{yellow!30}1 & 
+    \cellcolor{red!30}1 & 
     % 1001: grupo 1 (amarillo)
-    \cellcolor{yellow!30}1 & 
+    \cellcolor{red!30}1 & 
     % 1011: grupo 1 (amarillo)
-    \cellcolor{yellow!30}x & 
+    \cellcolor{red!30}x & 
     % 1010: grupo 1 (amarillo)
-    \cellcolor{yellow!30}x \\
+    \cellcolor{red!30}x \\
 \end{tabular}
 Salida W
 \end{center}
@@ -127,10 +127,10 @@ Salida W
     \cellcolor{green!30}1 \\
 01 & 
     % 0100: grupo de 2 (amarillo)
-    \cellcolor{yellow!30}1 & 0 & 0 & 0 \\
+    \cellcolor{red!30}1 & 0 & 0 & 0 \\
 11 & 
     % 1100: grupo de 2 (amarillo)
-    \cellcolor{yellow!30}x & x & x & x \\
+    \cellcolor{red!30}x & x & x & x \\
 10 & 0 & 
     % 1001: grupo de 4 (azul)
     \cellcolor{cyan!30}1 & 
@@ -155,10 +155,10 @@ Salida X
 \begin{tabular}{c|cccc}
 \diagbox{AB}{CD} & 00 & 01 & 11 & 10 \\
 \hline
-00 & \cellcolor{cyan!30}1 & 0 & \cellcolor{yellow!30}1 & 0 \\
-01 & \cellcolor{cyan!30}1 & 0 & \cellcolor{yellow!30}1 & 0 \\
-11 & \cellcolor{cyan!30}x & x & \cellcolor{yellow!30}x & x \\
-10 & \cellcolor{cyan!30}1 & 0 & \cellcolor{yellow!30}x & x \\
+00 & \cellcolor{cyan!30}1 & 0 & \cellcolor{red!30}1 & 0 \\
+01 & \cellcolor{cyan!30}1 & 0 & \cellcolor{red!30}1 & 0 \\
+11 & \cellcolor{cyan!30}x & x & \cellcolor{red!30}x & x \\
+10 & \cellcolor{cyan!30}1 & 0 & \cellcolor{red!30}x & x \\
 \end{tabular}
 Salida Y
 \end{center}
@@ -172,10 +172,10 @@ Salida Y
 \begin{tabular}{c|cccc}
 \diagbox{AB}{CD} & 00 & 01 & 11 & 10 \\
 \hline
-00 & \cellcolor{yellow!30}1 & 0 & 0 & \cellcolor{yellow!30}1 \\
-01 & \cellcolor{yellow!30}1 & 0 & 0 & \cellcolor{yellow!30}1 \\
-11 & \cellcolor{yellow!30}x & x & x & \cellcolor{yellow!30}x \\
-10 & \cellcolor{yellow!30}1 & 0 & x & \cellcolor{yellow!30}x \\
+00 & \cellcolor{red!30}1 & 0 & 0 & \cellcolor{red!30}1 \\
+01 & \cellcolor{red!30}1 & 0 & 0 & \cellcolor{red!30}1 \\
+11 & \cellcolor{red!30}x & x & x & \cellcolor{red!30}x \\
+10 & \cellcolor{red!30}1 & 0 & x & \cellcolor{red!30}x \\
 \end{tabular}
 Salida Z
 \end{center}

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750303641.7751 "c:/Users/gonfi/Documents/Github/Gonza/tecnicasDigitales/Informe.tex" "build/Informe.pdf" "Informe" 1750303644.74513 0
+["pdflatex"] 1750303749.57563 "c:/Users/gonfi/Documents/Github/Gonza/tecnicasDigitales/Informe.tex" "build/Informe.pdf" "Informe" 1750303752.86902 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750301562 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1748190372 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750301542 13159366 33e531db5eb17cfa2bb5364f9cc4ef77 ""
@@ -253,12 +253,12 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "Informe.tex" 1750303640 1254 17070b77e39f083ffcab04d4366d14e9 ""
-  "actividades.tex" 1750303597 16805 32051d944a07a837d87de8ab76a6ac66 ""
-  "build/Informe.aux" 1750303644 3798 c116d37fff9e077ca703476a566ad2ed "pdflatex"
-  "build/Informe.toc" 1750303644 1080 554c19d450f13ba67d9cf0d7185397a0 "pdflatex"
-  "build/caratula.aux" 1750303643 1115 67a0d1b237c1c1a21dc6a4b2ecef9d9b "pdflatex"
-  "build/configContenido.aux" 1750303643 1098 fb2b1fa013dea40cae7858d5f4a5ed0e "pdflatex"
-  "build/indice.aux" 1750303643 1137 26c281ae344092a4849eb971eda8b962 "pdflatex"
+  "actividades.tex" 1750303748 16739 14508cd81f7bb165de8d5a69fd9b6c28 ""
+  "build/Informe.aux" 1750303752 3798 c116d37fff9e077ca703476a566ad2ed "pdflatex"
+  "build/Informe.toc" 1750303752 1080 554c19d450f13ba67d9cf0d7185397a0 "pdflatex"
+  "build/caratula.aux" 1750303751 1115 67a0d1b237c1c1a21dc6a4b2ecef9d9b "pdflatex"
+  "build/configContenido.aux" 1750303751 1098 fb2b1fa013dea40cae7858d5f4a5ed0e "pdflatex"
+  "build/indice.aux" 1750303751 1137 26c281ae344092a4849eb971eda8b962 "pdflatex"
   "c:/Users/gonfi/Documents/Github/Gonza/tecnicasDigitales/Informe.tex" 1750303640 1254 17070b77e39f083ffcab04d4366d14e9 ""
   "caratula.tex" 1750301458 1750 466fb40b1111eeb9724709c0f99c02b3 ""
   "configContenido.tex" 1750301458 1230 bb2f920ad66ca664bc23ca81fbde9dab ""
