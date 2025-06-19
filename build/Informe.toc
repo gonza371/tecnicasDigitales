@@ -12,3 +12,4 @@
 \contentsline {section}{\numberline {3}Imagenes de Circuitos}{4}{}%
 \contentsline {subsection}{\numberline {3.1}Circuito 2.1}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Circuito 2.2}{4}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{4}{}%

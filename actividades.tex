@@ -46,7 +46,11 @@ A & B & C & D & W & X & Y & Z \\
     \item $Z = \overline{A} \cdot \overline{B} \cdot \overline{C} \cdot \overline{D} + \overline{A} \cdot \overline{B} \cdot C \cdot \overline{D} + \overline{A} \cdot B \cdot \overline{C} \cdot \overline{D} + \overline{A} \cdot B \cdot C \cdot \overline{D} + A \cdot \overline{B} \cdot \overline{C} \cdot \overline{D}$
 \end{itemize}
 
+\saltoPag
+
 \subsection{Minimización por mapas de Karnaugh}
+
+
 
 \begin{center}
 \centering
@@ -55,9 +59,48 @@ A & B & C & D & W & X & Y & Z \\
 \diagbox{AB}{CD} & 00 & 01 & 11 & 10 \\
 \hline
 00 & 0 & 0 & 0 & 0 \\
-01 & 0 & 1 & 1 & 1 \\
-11 & x & x & x & x \\
-10 & 1 & 1 & x & x \\
+01 & 0 & 
+    % 0101: grupo 2 (azul)
+    \cellcolor{cyan!30}1 & 
+    % 0111: grupo 2 (azul) y grupo 3 (verde)
+    \tikz{
+        \fill[cyan!30] (0,0) rectangle (0.5,0.5);
+        \fill[green!30] (0.25,0) rectangle (0.5,0.5);
+        \node at (0.25,0.25) {1};
+    } & 
+    % 0110: grupo 3 (verde)
+    \cellcolor{green!30}1 \\
+11 & 
+    % 1100: grupo 1 (amarillo)
+    \cellcolor{yellow!30}x & 
+    % 1101: grupo 1 (amarillo) y grupo 2 (cyan)
+    \tikz{
+        \fill[yellow!30] (0,0) rectangle (0.5,0.5);
+        \fill[cyan!30] (0.25,0) rectangle (0.5,0.5);
+        \node at (0.25,0.25) {x};
+    } & 
+    % 1111: grupo 1 (amarillo), grupo 2 (cyan), grupo 3 (verde)
+    \tikz{
+        \fill[yellow!30] (0,0) rectangle (0.5,0.5);
+        \fill[cyan!30] (0.15,0) rectangle (0.35,0.5);
+        \fill[green!30] (0.25,0) rectangle (0.5,0.5);
+        \node at (0.25,0.25) {x};
+    } & 
+    % 1110: grupo 1 (amarillo), grupo 3 (verde)
+    \tikz{
+        \fill[yellow!30] (0,0) rectangle (0.5,0.5);
+        \fill[green!30] (0.25,0) rectangle (0.5,0.5);
+        \node at (0.25,0.25) {x};
+    } \\
+10 & 
+    % 1000: grupo 1 (amarillo)
+    \cellcolor{yellow!30}1 & 
+    % 1001: grupo 1 (amarillo)
+    \cellcolor{yellow!30}1 & 
+    % 1011: grupo 1 (amarillo)
+    \cellcolor{yellow!30}x & 
+    % 1010: grupo 1 (amarillo)
+    \cellcolor{yellow!30}x \\
 \end{tabular}
 Salida W
 \end{center}
@@ -71,10 +114,34 @@ Salida W
 \begin{tabular}{c|cccc}
 \diagbox{AB}{CD} & 00 & 01 & 11 & 10 \\
 \hline
-00 & 0 & 1 & 1 & 1 \\
-01 & 1 & 0 & 0 & 0 \\
-11 & x & x & x & x \\
-10 & 0 & 1 & x & x \\
+00 & 0 & 
+    % 0001: grupo de 4 (azul)
+    \cellcolor{cyan!30}1 & 
+    % 0011: grupo de 4 (azul) y grupo de 4 (verde)
+    \tikz{
+        \fill[cyan!30] (0,0) rectangle (0.5,0.5);
+        \fill[green!30] (0.25,0) rectangle (0.5,0.5);
+        \node at (0.25,0.25) {1};
+    } & 
+    % 0010: grupo de 4 (verde)
+    \cellcolor{green!30}1 \\
+01 & 
+    % 0100: grupo de 2 (amarillo)
+    \cellcolor{yellow!30}1 & 0 & 0 & 0 \\
+11 & 
+    % 1100: grupo de 2 (amarillo)
+    \cellcolor{yellow!30}x & x & x & x \\
+10 & 0 & 
+    % 1001: grupo de 4 (azul)
+    \cellcolor{cyan!30}1 & 
+    % 1011: grupo de 4 (azul) y grupo de 4 (verde)
+    \tikz{
+        \fill[cyan!30] (0,0) rectangle (0.5,0.5);
+        \fill[green!30] (0.25,0) rectangle (0.5,0.5);
+        \node at (0.25,0.25) {x};
+    } & 
+    % 1010: grupo de 4 (verde)
+    \cellcolor{green!30}x \\
 \end{tabular}
 Salida X
 \end{center}
@@ -88,10 +155,10 @@ Salida X
 \begin{tabular}{c|cccc}
 \diagbox{AB}{CD} & 00 & 01 & 11 & 10 \\
 \hline
-00 & 1 & 0 & 1 & 0 \\
-01 & 1 & 0 & 1 & 0 \\
-11 & x & x & x & x \\
-10 & 1 & 0 & x & x \\
+00 & \cellcolor{cyan!30}1 & 0 & \cellcolor{yellow!30}1 & 0 \\
+01 & \cellcolor{cyan!30}1 & 0 & \cellcolor{yellow!30}1 & 0 \\
+11 & \cellcolor{cyan!30}x & x & \cellcolor{yellow!30}x & x \\
+10 & \cellcolor{cyan!30}1 & 0 & \cellcolor{yellow!30}x & x \\
 \end{tabular}
 Salida Y
 \end{center}
@@ -105,10 +172,10 @@ Salida Y
 \begin{tabular}{c|cccc}
 \diagbox{AB}{CD} & 00 & 01 & 11 & 10 \\
 \hline
-00 & 1 & 0 & 0 & 1 \\
-01 & 1 & 0 & 0 & 1 \\
-11 & x & x & x & x \\
-10 & 1 & 0 & x & x \\
+00 & \cellcolor{yellow!30}1 & 0 & 0 & \cellcolor{yellow!30}1 \\
+01 & \cellcolor{yellow!30}1 & 0 & 0 & \cellcolor{yellow!30}1 \\
+11 & \cellcolor{yellow!30}x & x & x & \cellcolor{yellow!30}x \\
+10 & \cellcolor{yellow!30}1 & 0 & x & \cellcolor{yellow!30}x \\
 \end{tabular}
 Salida Z
 \end{center}
@@ -385,6 +452,15 @@ En este caso, Karnaugh no es util para al simplificar, por lo que debemos hacerl
 
 
 \subsection{Circuito 2.1}
+
+    Materiales utilizados:
+    \begin{itemize}
+        \item 1 CD4069 (Inversor)
+        \item 2 CD4081 (AND)
+        \item 2 CD4071 (OR)
+        
+    \end{itemize}
+
     Circuito lógico implementado en protoboard para la actividad 2.1
     \begin{center}
     \includegraphics[width=6.3cm]{imagenes/Circuito1.jpg}
@@ -393,8 +469,20 @@ En este caso, Karnaugh no es util para al simplificar, por lo que debemos hacerl
 \saltoPag
 
 \subsection{Circuito 2.2}
+
+    Materiales utilizados:
+    \begin{itemize}
+        \item 1 CD4069 (Inversor)
+        \item 3 CD4081 (AND)
+        \item 1 CD4071 (OR)
+        \item 1 CD4077 (XOR)
+    \end{itemize}
 Circuito lógico implementado en protoboard para la actividad 2.2
     \begin{center}
     \includegraphics[width=7cm]{imagenes/Circuito2.jpg}
     \end{center}
+
+    \section{Conclusiones}
+
+    Como conclusión a estas actividades podemos decir que el metodo de minimización por mapa de Karnaugh algunas veces se puede complementar con el álgebra de Boole, ya que en alguno de los casos luego de realizar el mapa fue posible seguir simplificando la expresión obtenida. Ademas se pudo lograr con exito la implementación tanto mediante simulacion como física con el uso del MiniLab.
     
