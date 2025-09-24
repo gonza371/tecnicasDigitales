@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Actividad 2.1: Utilizar conversor BCD}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Materiales Requeridos}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Procedimiento}{1}{}%
+\contentsline {subsection}{\numberline {1.3}Preguntas de Análisis}{1}{}%
+\contentsline {paragraph}{1. ¿Cuál es la función del decodificador BCD a 7 segmentos?}{1}{}%
+\contentsline {paragraph}{2. ¿Cuál es la conexión adecuada entre el decodificador y el display de 7 segmentos?}{1}{}%
+\contentsline {paragraph}{3. ¿Qué sucede si se proporciona una entrada inválida al decodificador?}{1}{}%
+\contentsline {paragraph}{4. ¿Cuál es la relación entre los bits de entrada y los segmentos del display?}{2}{}%
+\contentsline {paragraph}{5. ¿Cuál es la utilidad de las resistencias en el circuito?}{2}{}%
+\contentsline {section}{\numberline {2}Actividad 2.2: HDL decodificador BCD}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Materiales Requeridos}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Procedimiento}{2}{}%
