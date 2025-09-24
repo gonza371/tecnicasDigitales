@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  24 SEP 2025 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  24 SEP 2025 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1090,25 +1090,41 @@ LaTeX Info: Redefining \% on input line 1.
 [0
 
 ]) (ejercicio2-1.tex
-<./imagenes/tabla.png, id=22, 347.79938pt x 625.58719pt>
+<./imagenes/esquematico.jpeg, id=22, 1604.99625pt x 902.37125pt>
+File: ./imagenes/esquematico.jpeg Graphic file (type jpg)
+<use ./imagenes/esquematico.jpeg>
+Package pdftex.def Info: ./imagenes/esquematico.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 440.18959pt x 247.48506pt.
+
+
+<./imagenes/logoDepartamentoElectronica.png, id=23, 1027.84pt x 1027.84pt>
+File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
+<use ./imagenes/logoDepartamentoElectronica.png>
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 32.
+(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
+[1 <./imagenes/logoDepartamentoElectronica.png (PNG copy)> <./imagenes/esquematico.jpeg>]
+<./imagenes/circuito.jpeg, id=27, 857.45343pt x 483.30562pt>
+File: ./imagenes/circuito.jpeg Graphic file (type jpg)
+<use ./imagenes/circuito.jpeg>
+Package pdftex.def Info: ./imagenes/circuito.jpeg  used on input line 34.
+(pdftex.def)             Requested size: 440.18959pt x 248.1124pt.
+<./imagenes/tabla.png, id=28, 347.79938pt x 625.58719pt>
 File: ./imagenes/tabla.png Graphic file (type png)
 <use ./imagenes/tabla.png>
-Package pdftex.def Info: ./imagenes/tabla.png  used on input line 34.
+Package pdftex.def Info: ./imagenes/tabla.png  used on input line 40.
 (pdftex.def)             Requested size: 244.55144pt x 439.87445pt.
+<./imagenes/vista.png, id=30, 549.55313pt x 444.91219pt>
+File: ./imagenes/vista.png Graphic file (type png)
+<use ./imagenes/vista.png>
+Package pdftex.def Info: ./imagenes/vista.png  used on input line 52.
+(pdftex.def)             Requested size: 244.55144pt x 197.9819pt.
 
 
-<./imagenes/logoDepartamentoElectronica.png, id=24, 1027.84pt x 1027.84pt>
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 37.
+Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 61.
 (pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[1 <./imagenes/logoDepartamentoElectronica.png (PNG copy)>]) (ejercicio2-2.tex
-
-File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
-<use ./imagenes/logoDepartamentoElectronica.png>
-Package pdftex.def Info: ./imagenes/logoDepartamentoElectronica.png  used on input line 1.
-(pdftex.def)             Requested size: 43.34933pt x 43.36243pt.
-[2 <./imagenes/tabla.png>]
+[2 <./imagenes/circuito.jpeg> <./imagenes/tabla.png> <./imagenes/vista.png>]) (ejercicio2-2.tex
 
 File: ./imagenes/logoDepartamentoElectronica.png Graphic file (type png)
 <use ./imagenes/logoDepartamentoElectronica.png>
@@ -1132,17 +1148,17 @@ L3 programming layer <2025-04-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 47258 strings out of 469922
- 1166212 string characters out of 5469149
+ 47284 strings out of 469922
+ 1166960 string characters out of 5469149
  1807507 words of memory out of 5000000
- 73523 multiletter control sequences out of 15000+600000
+ 73549 multiletter control sequences out of 15000+600000
  642707 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,26n,110p,545b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,26n,110p,553b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\Tp2\build\main.pdf (8 pages, 1396302 bytes).
+Output written on c:\Users\gonfi\Documents\Github\Gonza\tecnicasDigitales\Tp2\build\main.pdf (8 pages, 1710049 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

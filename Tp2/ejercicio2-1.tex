@@ -27,31 +27,45 @@
     \item Realizar diferentes pruebas utilizando distintas entradas BCD para asegurarte de que el decodificador funcione correctamente.
 \end{enumerate}
 
+\includegraphics[width=0.9\textwidth]{./imagenes/esquematico.jpeg}
 
+\newpage
 
-Tabla de verdad del decodificador BCD a 7 segmentos:
+\includegraphics[width=0.9\textwidth]{./imagenes/circuito.jpeg}
 
- \includegraphics[width=0.5\textwidth]{./imagenes/tabla.png}
+\begin{table}[h!]
+    \centering
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./imagenes/tabla.png}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        Cables:
+        \begin{itemize}
+            \setlength\itemsep{0.1em} % Ajusta el espacio entre ítems
+            \item Morado: b
+            \item Blanco: c
+            \item Gris: d
+            \item Azul: a
+        \end{itemize}
 
+        \includegraphics[width=\textwidth]{./imagenes/vista.png}
 
-\subsection{Preguntas de Análisis}
+    \end{minipage}
+\end{table}
 
-\paragraph{1. ¿Cuál es la función del decodificador BCD a 7 segmentos?}
+        \subsection{Preguntas de Análisis}
+        \paragraph{1. ¿Cuál es la función del decodificador BCD a 7 segmentos?}
+        El decodificador BCD a 7 segmentos convierte una entrada en formato BCD (Binary-Coded Decimal) de 4 bits en señales que controlan los segmentos individuales de un display de 7 segmentos, permitiendo así la representación visual de números decimales del 0 al 9.
 
-El decodificador BCD a 7 segmentos convierte una entrada en formato BCD (Binary-Coded Decimal) de 4 bits en señales que controlan los segmentos individuales de un display de 7 segmentos, permitiendo así la representación visual de números decimales del 0 al 9.
+        \paragraph{2. ¿Cuál es la conexión adecuada entre el decodificador y el display de 7 segmentos?}
+        La conexión adecuada entre el decodificador BCD a 7 segmentos y el display de 7 segmentos implica conectar las salidas del decodificador a los pines correspondientes del display. Cada salida del decodificador controla un segmento específico del display (a, b, c, d, e, f, g). Además, es importante incluir resistencias en serie con cada segmento para limitar la corriente y proteger tanto el decodificador como el display.
 
-\paragraph{2. ¿Cuál es la conexión adecuada entre el decodificador y el display de 7 segmentos?}
+        \paragraph{3. ¿Qué sucede si se proporciona una entrada inválida al decodificador?}
+        Observando la tabla de verdad del decodificador BCD a 7 segmentos, si se proporciona una entrada inválida (es decir, un valor BCD que no representa un número decimal válido, como 1010 a 1111), el decodificador apaga el display poniendo todas sus salidas en 0, lo que resulta en que ningún segmento del display se ilumine.
 
-La conexión adecuada entre el decodificador BCD a 7 segmentos y el display de 7 segmentos implica conectar las salidas del decodificador a los pines correspondientes del display. Cada salida del decodificador controla un segmento específico del display (a, b, c, d, e, f, g). Además, es importante incluir resistencias en serie con cada segmento para limitar la corriente y proteger tanto el decodificador como el display.
+        \paragraph{4. ¿Cuál es la relación entre los bits de entrada y los segmentos del display?}
+        La relación entre los bits de entrada y los segmentos del display es directa: cada combinación de los 4 bits de entrada (representando un número en formato BCD) activa un conjunto específico de segmentos en el display para formar la representación visual del número correspondiente. Por ejemplo, la entrada BCD "0001" (que representa el número 1) activará los segmentos b y c del display.
 
-\paragraph{3. ¿Qué sucede si se proporciona una entrada inválida al decodificador?}
-
-Observando la tabla de verdad del decodificador BCD a 7 segmentos, si se proporciona una entrada inválida (es decir, un valor BCD que no representa un número decimal válido, como 1010 a 1111), el decodificador apaga el display poniendo todas sus salidas en 0, lo que resulta en que ningún segmento del display se ilumine.
-
-\paragraph{4. ¿Cuál es la relación entre los bits de entrada y los segmentos del display?}
-
-La relación entre los bits de entrada y los segmentos del display es directa: cada combinación de los 4 bits de entrada (representando un número en formato BCD) activa un conjunto específico de segmentos en el display para formar la representación visual del número correspondiente. Por ejemplo, la entrada BCD "0001" (que representa el número 1) activará los segmentos b y c del display.
-
-\paragraph{5. ¿Cuál es la utilidad de las resistencias en el circuito?}
-
-Las resistencias en el circuito tienen la función de limitar la corriente que fluye a través de los segmentos del display de 7 segmentos. Esto es crucial para evitar que los segmentos se dañen debido a una corriente excesiva, asegurando así la longevidad y el correcto funcionamiento del display.
+        \paragraph{5. ¿Cuál es la utilidad de las resistencias en el circuito?}
+        Las resistencias en el circuito tienen la función de limitar la corriente que fluye a través de los segmentos del display de 7 segmentos. Esto es crucial para evitar que los segmentos se dañen debido a una corriente excesiva, asegurando así la longevidad y el correcto funcionamiento del display.
