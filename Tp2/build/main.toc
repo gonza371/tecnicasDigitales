@@ -11,3 +11,10 @@
 \contentsline {section}{\numberline {2}Actividad 2.2: HDL decodificador BCD}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Materiales Requeridos}{4}{}%
 \contentsline {subsection}{\numberline {2.2}Procedimiento}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Implementación}{4}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{Diagrama de disposición de entradas y salidas}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{5}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {paragraph}{}{6}{}%
